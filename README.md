@@ -31,7 +31,7 @@ The script populates a root directory at `/sdcard/sim_data` mimicking key system
    ```
 3. Run the script:
    ```bash
-   ./sim_android_structure.sh
+   sh ./sim_android_structure.sh
    ```
 
 ## License
