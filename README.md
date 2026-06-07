@@ -3,21 +3,21 @@ A lightweight Shell Script designed to simulate a realistic Android internal dir
 
 Created by **Miguel Gomes Viana**.
 
-## 🚀 Purpose
+## Purpose
 This script generates a mock representation of Android's internal system files, application preferences, cache patterns, runtime logs, and user architectures (`user/0`). It is highly useful for:
 * Testing automation scripts and Android backup tools.
 * Developing or debugging Android file managers.
 * Creating safe sandbox environments for digital forensics training and testing.
 * Simulating application behaviors without exposing real user sensitive data.
 
-## 📁 Simulated Structure Overview
+## Simulated Structure Overview
 The script populates a root directory at `/sdcard/sim_data` mimicking key system components:
 1. **`app/`**: Application binaries, manifests, certificates, and OAT optimization blocks for 26 popular packages (WhatsApp, Chrome, Samsung core apps, etc.).
 2. **`app-lib/`**: Native library architecture maps (`arm64-v8a`, `armeabi-v7a`, `x86_64`).
 3. **`data/` & `user/0/`**: Runtime databases (SQLite simulator streams), Firebase tokens, Flutter engine states, encrypted key mocks, WebView local cache, and structured HTTP/Image footprints.
 4. **`system/`**: Comprehensive Android system configuration mocks including userlists (`Owner` with UID 1000), battery history logs, runtime permission maps, system secure XML preferences, and overlay tables.
 
-## 🛠️ How to Use
+## How to Use
 
 ### Prerequisites
 * A device or environment running an Android-based shell interpreter (`/system/bin/sh`).
@@ -34,5 +34,5 @@ The script populates a root directory at `/sdcard/sim_data` mimicking key system
    ./sim_android_structure.sh
    ```
 
-## 📜 License
+## License
 This project is licensed under the GNU GPL-3.0 License - see the [LICENSE](LICENSE).
