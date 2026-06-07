@@ -1,6 +1,5 @@
-# Android Data Structure Simulator 📱
-
-A lightweight Shell Script designed to simulate a realistic Android internal directory tree and file mock infrastructure inside `/sdcard/`. 
+# data
+A lightweight Shell Script designed to simulate a realistic Android internal directory tree and file mock infrastructure inside `/sdcard/data`. 
 
 Created by **Miguel Gomes Viana**.
 
@@ -36,4 +35,4 @@ The script populates a root directory at `/sdcard/sim_data` mimicking key system
    ```
 
 ## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU GPL-3.0 License - see the [LICENSE](LICENSE).
