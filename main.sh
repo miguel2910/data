@@ -2,7 +2,7 @@
 # Source: Miguel Gomes Viana.
 
 # Variables.
-data="/sdcard/sim_data"
+data="/sdcard/data"
 uid=1000
 
 # Functions.
